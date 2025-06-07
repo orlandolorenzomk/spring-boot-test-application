@@ -1,0 +1,17 @@
+server:
+  port: ${PORT}
+  servlet:
+    context-path: /kreyzon/test/api
+
+spring:
+  application:
+    name: test
+
+logging:
+  level:
+    root: INFO
+
+application:
+  property-one: ${APP_PROPERTY_ONE}
+  property-two: ${APP_PROPERTY_TWO}
+  property-three: ${APP_PROPERTY_THREE}

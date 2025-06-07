@@ -41,10 +41,6 @@
                 <configuration>
                     <source>${maven.compiler.release}</source>
                     <target>${maven.compiler.release}</target>
-                    <compilerArgs>
-                        <arg>--enable-preview</arg>
-                        <arg>-Xlint:all</arg>
-                    </compilerArgs>
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.projectlombok</groupId>

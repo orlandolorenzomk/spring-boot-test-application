@@ -23,6 +23,6 @@ public class ApplicationController {
     @RequestMapping("/greet")
     public String greet() {
         log.info("Greet endpoint called");
-        return "Hello from the Test Application!";
+        return "Hello from Madalina! This is a test application for SpringOps project.";
     }
 }

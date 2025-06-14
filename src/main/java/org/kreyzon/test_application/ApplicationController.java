@@ -19,12 +19,6 @@ public class ApplicationController {
     @Value("${application.property-one}")
     private String propertyOne;
 
-    @Value("${application.property-two}")
-    private String propertyTwo;
-
-    @Value("${application.property-three}")
-    private String propertyThree;
-
 
     /**
      * Endpoint to return a simple greeting message.
@@ -35,8 +29,6 @@ public class ApplicationController {
     public String greet() {
         log.info("Greet endpoint called");
         return "Hello, welcome to the Test Application! \n" +
-               "Property One: " + propertyOne + "\n" +
-               "Property Two: " + propertyTwo + "\n" +
-               "Property Three: " + propertyThree + "\n";
+               "Property One: " + propertyOne + "\n";
     }
 }
